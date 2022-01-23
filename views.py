@@ -34,4 +34,4 @@ class BookmarkDeletaView(DeleteView):
     
 class BookmarkListView(ListView):
     model = Bookmark
-    paginate_by = 2
+    paginate_by = 5
